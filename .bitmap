@@ -9,5 +9,26 @@
  */
 
 {
+    "ui/footer": {
+        "name": "ui/footer",
+        "scope": "integratorsai.prototype",
+        "version": "a232aec91dadce7525ce137c2d246bdb2e11f3cf",
+        "mainFile": "index.tsx",
+        "rootDir": "components/footer"
+    },
+    "ui/header": {
+        "name": "ui/header",
+        "scope": "integratorsai.prototype",
+        "version": "6db1f98dbba222abe89b7b19dc078b7a07312815",
+        "mainFile": "index.tsx",
+        "rootDir": "components/header"
+    },
+    "ui/logos": {
+        "name": "ui/logos",
+        "scope": "integratorsai.prototype",
+        "version": "fc7fecf2cc0ced1f72aa9d4c174f2e63243ac81c",
+        "mainFile": "index.tsx",
+        "rootDir": "components/logos"
+    },
     "$schema-version": "17.0.0"
 }
