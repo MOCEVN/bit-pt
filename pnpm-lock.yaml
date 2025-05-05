@@ -78,71 +78,26 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  components/footer:
-    dependencies:
-      react:
-        specifier: ^17.0.0
-        version: 17.0.2
-      react-dom:
-        specifier: ^17.0.0
-        version: 17.0.2(react@17.0.2)
-    devDependencies:
-      '@types/jest':
-        specifier: 26.0.20
-        version: 26.0.20
-      '@types/node':
-        specifier: 22.10.5
-        version: 22.10.5
-
-  components/header:
-    dependencies:
-      react:
-        specifier: ^17.0.0
-        version: 17.0.2
-      react-dom:
-        specifier: ^17.0.0
-        version: 17.0.2(react@17.0.2)
-    devDependencies:
-      '@types/jest':
-        specifier: 26.0.20
-        version: 26.0.20
-      '@types/node':
-        specifier: 22.10.5
-        version: 22.10.5
-
-  components/logos:
-    dependencies:
-      react:
-        specifier: ^17.0.0
-        version: 17.0.2
-      react-dom:
-        specifier: ^17.0.0
-        version: 17.0.2(react@17.0.2)
-    devDependencies:
-      '@types/jest':
-        specifier: 26.0.20
-        version: 26.0.20
-      '@types/node':
-        specifier: 22.10.5
-        version: 22.10.5
-
   node_modules/.bit_roots/teambit.harmony_node:
     dependencies:
-      '@integratorsai/prototype.logo.logo-pursuit.logo-pursuit':
+      '@integratorsai/prototype.components.footer':
         specifier: workspace:*
-        version: file:src/components/logo-pursuit(react@17.0.2)
-      '@integratorsai/prototype.logo.logo-test.logo-test':
+        version: file:src/components/footer(react@17.0.2)
+      '@integratorsai/prototype.components.header':
         specifier: workspace:*
-        version: file:src/components/logo-test(react@17.0.2)
-      '@integratorsai/prototype.ui.footer':
+        version: file:src/components/header(react@17.0.2)
+      '@integratorsai/prototype.dynamic-logo.dynamic-logo':
         specifier: workspace:*
-        version: file:components/footer
-      '@integratorsai/prototype.ui.header':
+        version: file:src/components/dynamic-logo(react@17.0.2)
+      '@integratorsai/prototype.logo.logo':
         specifier: workspace:*
-        version: file:components/header
-      '@integratorsai/prototype.ui.logos':
+        version: file:src/components/logos/logo
+      '@integratorsai/prototype.logo.logo-pursuit':
         specifier: workspace:*
-        version: file:components/logos
+        version: file:src/components/logos/logo-pursuit
+      '@integratorsai/prototype.logo.logo-test':
+        specifier: workspace:*
+        version: file:src/components/logos/logo-test
       react:
         specifier: ^17.0.0
         version: 17.0.2
@@ -150,18 +105,20 @@ importers:
         specifier: ^17.0.0
         version: 17.0.2(react@17.0.2)
     dependenciesMeta:
-      '@integratorsai/prototype.logo.logo-pursuit.logo-pursuit':
+      '@integratorsai/prototype.components.footer':
         injected: true
-      '@integratorsai/prototype.logo.logo-test.logo-test':
+      '@integratorsai/prototype.components.header':
         injected: true
-      '@integratorsai/prototype.ui.footer':
+      '@integratorsai/prototype.dynamic-logo.dynamic-logo':
         injected: true
-      '@integratorsai/prototype.ui.header':
+      '@integratorsai/prototype.logo.logo':
         injected: true
-      '@integratorsai/prototype.ui.logos':
+      '@integratorsai/prototype.logo.logo-pursuit':
+        injected: true
+      '@integratorsai/prototype.logo.logo-test':
         injected: true
 
-  src/components/logo-pursuit:
+  src/components/dynamic-logo:
     dependencies:
       react:
         specifier: ^17.0.0
@@ -180,7 +137,7 @@ importers:
         specifier: ^19.1.2
         version: 19.1.2
 
-  src/components/logo-test:
+  src/components/footer:
     dependencies:
       react:
         specifier: ^17.0.0
@@ -198,6 +155,73 @@ importers:
       '@types/react':
         specifier: ^19.1.2
         version: 19.1.2
+
+  src/components/header:
+    dependencies:
+      react:
+        specifier: ^17.0.0
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.0
+        version: 17.0.2(react@17.0.2)
+    devDependencies:
+      '@types/jest':
+        specifier: 26.0.20
+        version: 26.0.20
+      '@types/node':
+        specifier: 22.10.5
+        version: 22.10.5
+      '@types/react':
+        specifier: ^19.1.2
+        version: 19.1.2
+
+  src/components/logos/logo:
+    dependencies:
+      react:
+        specifier: ^17.0.0
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.0
+        version: 17.0.2(react@17.0.2)
+    devDependencies:
+      '@types/jest':
+        specifier: 26.0.20
+        version: 26.0.20
+      '@types/node':
+        specifier: 22.10.5
+        version: 22.10.5
+
+  src/components/logos/logo-pursuit:
+    dependencies:
+      react:
+        specifier: ^17.0.0
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.0
+        version: 17.0.2(react@17.0.2)
+    devDependencies:
+      '@types/jest':
+        specifier: 26.0.20
+        version: 26.0.20
+      '@types/node':
+        specifier: 22.10.5
+        version: 22.10.5
+
+  src/components/logos/logo-test:
+    dependencies:
+      react:
+        specifier: ^17.0.0
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.0
+        version: 17.0.2(react@17.0.2)
+    devDependencies:
+      '@types/jest':
+        specifier: 26.0.20
+        version: 26.0.20
+      '@types/node':
+        specifier: 22.10.5
+        version: 22.10.5
 
 packages:
 
@@ -390,24 +414,29 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@integratorsai/prototype.logo.logo-pursuit.logo-pursuit@file:src/components/logo-pursuit':
-    resolution: {directory: src/components/logo-pursuit, type: directory}
+  '@integratorsai/prototype.components.footer@file:src/components/footer':
+    resolution: {directory: src/components/footer, type: directory}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@integratorsai/prototype.logo.logo-test.logo-test@file:src/components/logo-test':
-    resolution: {directory: src/components/logo-test, type: directory}
+  '@integratorsai/prototype.components.header@file:src/components/header':
+    resolution: {directory: src/components/header, type: directory}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@integratorsai/prototype.ui.footer@file:components/footer':
-    resolution: {directory: components/footer, type: directory}
+  '@integratorsai/prototype.dynamic-logo.dynamic-logo@file:src/components/dynamic-logo':
+    resolution: {directory: src/components/dynamic-logo, type: directory}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@integratorsai/prototype.ui.header@file:components/header':
-    resolution: {directory: components/header, type: directory}
+  '@integratorsai/prototype.logo.logo-pursuit@file:src/components/logos/logo-pursuit':
+    resolution: {directory: src/components/logos/logo-pursuit, type: directory}
 
-  '@integratorsai/prototype.ui.logos@file:components/logos':
-    resolution: {directory: components/logos, type: directory}
+  '@integratorsai/prototype.logo.logo-test@file:src/components/logos/logo-test':
+    resolution: {directory: src/components/logos/logo-test, type: directory}
+
+  '@integratorsai/prototype.logo.logo@file:src/components/logos/logo':
+    resolution: {directory: src/components/logos/logo, type: directory}
 
   '@jest/expect-utils@29.7.0':
     resolution: {integrity: sha512-GlsNBWiFQFCVi9QVSx7f5AgMeLxe9YCCs5PuP2O2LdjDAA8Jh9eX7lA1Jq/xdXw3Wb3hyvlFNfZIfcRetSzYcA==}
@@ -2671,27 +2700,33 @@ snapshots:
   '@img/sharp-win32-x64@0.34.1':
     optional: true
 
-  '@integratorsai/prototype.logo.logo-pursuit.logo-pursuit@file:src/components/logo-pursuit(react@17.0.2)':
+  '@integratorsai/prototype.components.footer@file:src/components/footer(react@17.0.2)':
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@integratorsai/prototype.logo.logo-test.logo-test@file:src/components/logo-test(react@17.0.2)':
+  '@integratorsai/prototype.components.header@file:src/components/header(react@17.0.2)':
+    dependencies:
+      '@integratorsai/prototype.dynamic-logo.dynamic-logo': file:src/components/dynamic-logo(react@17.0.2)
+      react: 17.0.2
+      react-dom: 17.0.2(react@17.0.2)
+
+  '@integratorsai/prototype.dynamic-logo.dynamic-logo@file:src/components/dynamic-logo(react@17.0.2)':
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@integratorsai/prototype.ui.footer@file:components/footer':
+  '@integratorsai/prototype.logo.logo-pursuit@file:src/components/logos/logo-pursuit':
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@integratorsai/prototype.ui.header@file:components/header':
+  '@integratorsai/prototype.logo.logo-test@file:src/components/logos/logo-test':
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
 
-  '@integratorsai/prototype.ui.logos@file:components/logos':
+  '@integratorsai/prototype.logo.logo@file:src/components/logos/logo':
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)

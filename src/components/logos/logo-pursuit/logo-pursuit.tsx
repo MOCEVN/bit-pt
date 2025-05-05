@@ -1,13 +1,5 @@
-// src/components/logos/logo-pursuit/logo-pursuit.tsx
-import React from 'react';
-
-const LogoPursuit: React.FC = () => {
-  return (
-    <div>
-      <h2>Logo Pursuit</h2>
-      <img src="https://via.placeholder.com/150" alt="Logo Pursuit" />
-    </div>
-  );
-};
+const LogoPursuit = () => (
+  <img src="/pursuit.png" alt="Pursuit logo" className="h-8" />
+);
 
 export default LogoPursuit;

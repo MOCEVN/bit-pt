@@ -9,38 +9,27 @@
  */
 
 {
-    "components/footer": {
-        "name": "components/footer",
-        "scope": "integratorsai.prototype",
-        "version": "8b5f1a562b98ac2578eb83004e344aea48599b0b",
-        "mainFile": "footer.tsx",
-        "rootDir": "src/components/footer"
-    },
-    "components/header": {
-        "name": "components/header",
-        "scope": "integratorsai.prototype",
-        "version": "6bf53d86adddae1e002b687124896268f710ba55",
-        "mainFile": "header.tsx",
-        "rootDir": "src/components/header"
-    },
-    "logo/logo": {
-        "name": "logo/logo",
-        "scope": "integratorsai.prototype",
-        "version": "6958a40a6e3dcecc54d7eae87444b27a0f15dd3d",
+    "logo": {
+        "name": "logo",
+        "scope": "",
+        "version": "adcd337d8b7765ee8edb25cc6de3ceb206d45733",
+        "defaultScope": "my-scope",
         "mainFile": "logo.tsx",
         "rootDir": "src/components/logos/logo"
     },
-    "logo/logo-pursuit": {
-        "name": "logo/logo-pursuit",
-        "scope": "integratorsai.prototype",
-        "version": "4b975820acfb7d4d866a59b8027e1f5ee5c19a3e",
+    "logo-pursuit": {
+        "name": "logo-pursuit",
+        "scope": "",
+        "version": "e0516e66214a5a2ce374d9c9d35bfe43c38e061a",
+        "defaultScope": "my-scope",
         "mainFile": "logo-pursuit.tsx",
         "rootDir": "src/components/logos/logo-pursuit"
     },
-    "logo/logo-test": {
-        "name": "logo/logo-test",
-        "scope": "integratorsai.prototype",
-        "version": "8507d64a2baa3dfe44d756c547b94db7efed68ca",
+    "logo-test": {
+        "name": "logo-test",
+        "scope": "",
+        "version": "ecf509bbb31e0d41765e87d5bdaebb9418e1a0b2",
+        "defaultScope": "my-scope",
         "mainFile": "logo-test.tsx",
         "rootDir": "src/components/logos/logo-test"
     },

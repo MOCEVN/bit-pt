@@ -1,13 +1,5 @@
-// src/components/logos/logo/logo.tsx
-import React from 'react';
-
-const Logo: React.FC = () => {
-  return (
-    <div>
-      <h2>Logo</h2>
-      <img src="https://via.placeholder.com/150" alt="Logo" />
-    </div>
-  );
-};
+const Logo = () => (
+  <img src="/datadialogue_logo.svg" alt="Default logo" className="h-8" />
+);
 
 export default Logo;
